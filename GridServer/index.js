@@ -13,5 +13,5 @@ app.get("/status", (req,res)=>{
         "status":"running"
     }
 
-    res.send(status);
+    res.send(status+"ds");
 });
